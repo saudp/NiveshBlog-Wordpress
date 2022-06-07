@@ -1,0 +1,243 @@
+Log created: 2022-06-05 17:52:15
+Type: restore
+[2022-06-05 17:52:15][notice]init restore data
+[2022-06-05 17:52:15][notice]Start restoring blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_all.part002.zip
+[2022-06-05 17:52:15][notice]extract root:/var/www/html/wp-content/wpvividbackups/
+[2022-06-05 17:52:15][notice]start extracting file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_all.part002.zip
+[2022-06-05 17:52:19][notice]extract finished file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_all.part002.zip
+[2022-06-05 17:52:19][notice]Finished restoring blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_all.part002.zip
+[2022-06-05 17:52:23][notice]Start restoring blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_core.zip
+[2022-06-05 17:52:23][notice]restore from files:["\/var\/www\/html\/wp-content\/wpvividbackups\/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_core.zip"]
+[2022-06-05 17:52:23][notice]start extracting file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_core.zip
+[2022-06-05 17:52:27][error]A restore task is already running.
+[2022-06-05 17:52:58][notice]extract finished file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_core.zip
+[2022-06-05 17:52:58][notice]Finished restoring blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_core.zip
+[2022-06-05 17:53:02][notice]Start restoring blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_themes.zip
+[2022-06-05 17:53:02][notice]restore from files:["\/var\/www\/html\/wp-content\/wpvividbackups\/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_themes.zip"]
+[2022-06-05 17:53:02][notice]start extracting file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_themes.zip
+[2022-06-05 17:53:04][error]A restore task is already running.
+[2022-06-05 17:53:05][notice]extract finished file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_themes.zip
+[2022-06-05 17:53:05][notice]Finished restoring blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_themes.zip
+[2022-06-05 17:53:11][notice]Start restoring blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_content.zip
+[2022-06-05 17:53:11][notice]restore from files:["\/var\/www\/html\/wp-content\/wpvividbackups\/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_content.zip"]
+[2022-06-05 17:53:11][notice]start extracting file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_content.zip
+[2022-06-05 17:53:11][notice]extract finished file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_content.zip
+[2022-06-05 17:53:11][notice]Finished restoring blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_content.zip
+[2022-06-05 17:53:14][notice]Start restoring blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_db.zip
+[2022-06-05 17:53:14][notice]start extracting file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_db.zip
+[2022-06-05 17:53:16][notice]extract finished file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_db.zip
+[2022-06-05 17:53:16][notice]sql file: blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_db.sql
+[2022-06-05 17:53:16][Warning]wpdb
+[2022-06-05 17:53:16][notice]The test to create table succeeds.
+[2022-06-05 17:53:16][notice]The test to insert into table succeeds.
+[2022-06-05 17:53:16][notice]The test to drop table succeeds.
+[2022-06-05 17:53:16][notice]get max_allowed_packet wpdb 
+[2022-06-05 17:53:16][notice]Start import sql file.
+[2022-06-05 17:53:16][notice]old site url:https://blog.nivesh.com
+[2022-06-05 17:53:16][notice]old home url:https://blog.nivesh.com
+[2022-06-05 17:53:16][notice]old content url:https://blog.nivesh.com/wp-content
+[2022-06-05 17:53:16][notice]old upload url:https://blog.nivesh.com/wp-content/uploads
+[2022-06-05 17:53:16][notice]old site prefix:wp_
+[2022-06-05 17:53:16][notice]Drop table if exist
+[2022-06-05 17:53:16][notice]Create table wp_actionscheduler_actions
+[2022-06-05 17:53:16][notice]Dumping table wp_actionscheduler_actions is complete. Start replacing row(s).
+[2022-06-05 17:53:16][notice]Count of rows in wp_actionscheduler_actions: 73
+[2022-06-05 17:53:16][notice]Replace the row in 0 line.
+[2022-06-05 17:53:16][notice]finish replace rows
+[2022-06-05 17:53:16][notice]Drop table if exist
+[2022-06-05 17:53:16][notice]Create table wp_actionscheduler_claims
+[2022-06-05 17:53:16][notice]Dumping table wp_actionscheduler_claims is complete. Start replacing row(s).
+[2022-06-05 17:53:16][notice]Count of rows in wp_actionscheduler_claims: 0
+[2022-06-05 17:53:16][notice]Drop table if exist
+[2022-06-05 17:53:16][notice]Create table wp_actionscheduler_groups
+[2022-06-05 17:53:16][notice]Dumping table wp_actionscheduler_groups is complete. Start replacing row(s).
+[2022-06-05 17:53:16][notice]Count of rows in wp_actionscheduler_groups: 5
+[2022-06-05 17:53:16][notice]Replace the row in 0 line.
+[2022-06-05 17:53:16][notice]finish replace rows
+[2022-06-05 17:53:16][notice]Drop table if exist
+[2022-06-05 17:53:16][notice]Create table wp_actionscheduler_logs
+[2022-06-05 17:53:17][notice]Dumping table wp_actionscheduler_logs is complete. Start replacing row(s).
+[2022-06-05 17:53:17][notice]Count of rows in wp_actionscheduler_logs: 213
+[2022-06-05 17:53:17][notice]Replace the row in 0 line.
+[2022-06-05 17:53:17][notice]finish replace rows
+[2022-06-05 17:53:17][notice]Drop table if exist
+[2022-06-05 17:53:17][notice]Create table wp_admin_columns
+[2022-06-05 17:53:17][error]A restore task is already running.
+[2022-06-05 17:53:17][notice]Dumping table wp_admin_columns is complete. Start replacing row(s).
+[2022-06-05 17:53:17][notice]Count of rows in wp_admin_columns: 1
+[2022-06-05 17:53:17][notice]Replace the row in 0 line.
+[2022-06-05 17:53:17][notice]finish replace rows
+[2022-06-05 17:53:17][notice]Drop table if exist
+[2022-06-05 17:53:17][notice]Create table wp_aioseo_notifications
+[2022-06-05 17:53:17][notice]Dumping table wp_aioseo_notifications is complete. Start replacing row(s).
+[2022-06-05 17:53:17][notice]Count of rows in wp_aioseo_notifications: 0
+[2022-06-05 17:53:17][notice]Drop table if exist
+[2022-06-05 17:53:17][notice]Create table wp_aioseo_posts
+[2022-06-05 17:53:17][notice]Dumping table wp_aioseo_posts is complete. Start replacing row(s).
+[2022-06-05 17:53:17][notice]Count of rows in wp_aioseo_posts: 2
+[2022-06-05 17:53:17][notice]Replace the row in 0 line.
+[2022-06-05 17:53:17][notice]finish replace rows
+[2022-06-05 17:53:17][notice]Drop table if exist
+[2022-06-05 17:53:17][notice]Create table wp_commentmeta
+[2022-06-05 17:53:17][notice]Dumping table wp_commentmeta is complete. Start replacing row(s).
+[2022-06-05 17:53:17][notice]Count of rows in wp_commentmeta: 0
+[2022-06-05 17:53:17][notice]Drop table if exist
+[2022-06-05 17:53:17][notice]Create table wp_comments
+[2022-06-05 17:53:17][notice]Dumping table wp_comments is complete. Start replacing row(s).
+[2022-06-05 17:53:17][notice]Count of rows in wp_comments: 0
+[2022-06-05 17:53:17][notice]Drop table if exist
+[2022-06-05 17:53:17][notice]Create table wp_e_events
+[2022-06-05 17:53:17][notice]Dumping table wp_e_events is complete. Start replacing row(s).
+[2022-06-05 17:53:17][notice]Count of rows in wp_e_events: 0
+[2022-06-05 17:53:17][notice]Drop table if exist
+[2022-06-05 17:53:17][notice]Create table wp_e_submissions
+[2022-06-05 17:53:17][notice]Dumping table wp_e_submissions is complete. Start replacing row(s).
+[2022-06-05 17:53:17][notice]Count of rows in wp_e_submissions: 2
+[2022-06-05 17:53:17][notice]Replace the row in 0 line.
+[2022-06-05 17:53:17][notice]finish replace rows
+[2022-06-05 17:53:17][notice]Drop table if exist
+[2022-06-05 17:53:17][notice]Create table wp_e_submissions_actions_log
+[2022-06-05 17:53:17][notice]Dumping table wp_e_submissions_actions_log is complete. Start replacing row(s).
+[2022-06-05 17:53:17][notice]Count of rows in wp_e_submissions_actions_log: 2
+[2022-06-05 17:53:17][notice]Replace the row in 0 line.
+[2022-06-05 17:53:17][notice]finish replace rows
+[2022-06-05 17:53:17][notice]Drop table if exist
+[2022-06-05 17:53:17][notice]Create table wp_e_submissions_values
+[2022-06-05 17:53:17][notice]Dumping table wp_e_submissions_values is complete. Start replacing row(s).
+[2022-06-05 17:53:17][notice]Count of rows in wp_e_submissions_values: 6
+[2022-06-05 17:53:17][notice]Replace the row in 0 line.
+[2022-06-05 17:53:17][notice]finish replace rows
+[2022-06-05 17:53:17][notice]Drop table if exist
+[2022-06-05 17:53:17][notice]Create table wp_links
+[2022-06-05 17:53:17][notice]Dumping table wp_links is complete. Start replacing row(s).
+[2022-06-05 17:53:17][notice]Count of rows in wp_links: 0
+[2022-06-05 17:53:17][notice]Drop table if exist
+[2022-06-05 17:53:17][notice]Create table wp_options
+[2022-06-05 17:53:20][notice]Dumping table wp_options is complete. Start replacing row(s).
+[2022-06-05 17:53:20][notice]Count of rows in wp_options: 737
+[2022-06-05 17:53:20][notice]Replace the row in 0 line.
+[2022-06-05 17:53:20][notice]finish replace rows
+[2022-06-05 17:53:20][notice]Drop table if exist
+[2022-06-05 17:53:20][notice]Create table wp_postmeta
+[2022-06-05 17:53:38][notice]Dumping table wp_postmeta is complete. Start replacing row(s).
+[2022-06-05 17:53:38][notice]Count of rows in wp_postmeta: 5916
+[2022-06-05 17:53:38][notice]Replace the row in 0 line.
+[2022-06-05 17:53:40][notice]Replace the row in 5000 line.
+[2022-06-05 17:53:40][notice]finish replace rows
+[2022-06-05 17:53:40][notice]Drop table if exist
+[2022-06-05 17:53:40][notice]Create table wp_posts
+[2022-06-05 17:53:46][notice]Dumping table wp_posts is complete. Start replacing row(s).
+[2022-06-05 17:53:46][notice]Count of rows in wp_posts: 1158
+[2022-06-05 17:53:46][notice]Replace the row in 0 line.
+[2022-06-05 17:53:46][notice]finish replace rows
+[2022-06-05 17:53:46][notice]Drop table if exist
+[2022-06-05 17:53:46][notice]Create table wp_rank_math_analytics_objects
+[2022-06-05 17:53:46][notice]Dumping table wp_rank_math_analytics_objects is complete. Start replacing row(s).
+[2022-06-05 17:53:46][notice]Count of rows in wp_rank_math_analytics_objects: 95
+[2022-06-05 17:53:46][notice]Replace the row in 0 line.
+[2022-06-05 17:53:46][notice]finish replace rows
+[2022-06-05 17:53:46][notice]Drop table if exist
+[2022-06-05 17:53:46][notice]Create table wp_rank_math_internal_links
+[2022-06-05 17:53:46][notice]Dumping table wp_rank_math_internal_links is complete. Start replacing row(s).
+[2022-06-05 17:53:46][notice]Count of rows in wp_rank_math_internal_links: 64
+[2022-06-05 17:53:46][notice]Replace the row in 0 line.
+[2022-06-05 17:53:46][notice]finish replace rows
+[2022-06-05 17:53:46][notice]Drop table if exist
+[2022-06-05 17:53:46][notice]Create table wp_rank_math_internal_meta
+[2022-06-05 17:53:47][notice]Dumping table wp_rank_math_internal_meta is complete. Start replacing row(s).
+[2022-06-05 17:53:47][notice]Count of rows in wp_rank_math_internal_meta: 100
+[2022-06-05 17:53:47][notice]Replace the row in 0 line.
+[2022-06-05 17:53:47][notice]finish replace rows
+[2022-06-05 17:53:47][notice]Drop table if exist
+[2022-06-05 17:53:47][notice]Create table wp_term_relationships
+[2022-06-05 17:53:48][notice]Dumping table wp_term_relationships is complete. Start replacing row(s).
+[2022-06-05 17:53:48][Warning]Skip table wp_term_relationships
+[2022-06-05 17:53:48][notice]Drop table if exist
+[2022-06-05 17:53:48][notice]Create table wp_term_taxonomy
+[2022-06-05 17:53:48][notice]Dumping table wp_term_taxonomy is complete. Start replacing row(s).
+[2022-06-05 17:53:48][notice]Count of rows in wp_term_taxonomy: 212
+[2022-06-05 17:53:48][notice]Replace the row in 0 line.
+[2022-06-05 17:53:48][notice]finish replace rows
+[2022-06-05 17:53:48][notice]Drop table if exist
+[2022-06-05 17:53:48][notice]Create table wp_termmeta
+[2022-06-05 17:53:48][notice]Dumping table wp_termmeta is complete. Start replacing row(s).
+[2022-06-05 17:53:48][notice]Count of rows in wp_termmeta: 26
+[2022-06-05 17:53:48][notice]Replace the row in 0 line.
+[2022-06-05 17:53:48][notice]finish replace rows
+[2022-06-05 17:53:48][notice]Drop table if exist
+[2022-06-05 17:53:48][notice]Create table wp_terms
+[2022-06-05 17:53:49][notice]Dumping table wp_terms is complete. Start replacing row(s).
+[2022-06-05 17:53:49][notice]Count of rows in wp_terms: 212
+[2022-06-05 17:53:49][notice]Replace the row in 0 line.
+[2022-06-05 17:53:49][notice]finish replace rows
+[2022-06-05 17:53:49][notice]Drop table if exist
+[2022-06-05 17:53:49][notice]Create table wp_usermeta
+[2022-06-05 17:53:49][notice]Dumping table wp_usermeta is complete. Start replacing row(s).
+[2022-06-05 17:53:49][notice]Count of rows in wp_usermeta: 51
+[2022-06-05 17:53:49][notice]Replace the row in 0 line.
+[2022-06-05 17:53:49][notice]finish replace rows
+[2022-06-05 17:53:49][notice]Drop table if exist
+[2022-06-05 17:53:49][notice]Create table wp_users
+[2022-06-05 17:53:49][notice]Dumping table wp_users is complete. Start replacing row(s).
+[2022-06-05 17:53:49][notice]Count of rows in wp_users: 1
+[2022-06-05 17:53:49][notice]Replace the row in 0 line.
+[2022-06-05 17:53:49][notice]finish replace rows
+[2022-06-05 17:53:49][notice]Drop table if exist
+[2022-06-05 17:53:49][notice]Create table wp_wpfm_backup
+[2022-06-05 17:53:49][notice]Dumping table wp_wpfm_backup is complete. Start replacing row(s).
+[2022-06-05 17:53:49][notice]Count of rows in wp_wpfm_backup: 0
+[2022-06-05 17:53:49][notice]Drop table if exist
+[2022-06-05 17:53:49][notice]Create table wp_wpforms_tasks_meta
+[2022-06-05 17:53:49][notice]Dumping table wp_wpforms_tasks_meta is complete. Start replacing row(s).
+[2022-06-05 17:53:49][notice]Count of rows in wp_wpforms_tasks_meta: 5
+[2022-06-05 17:53:49][notice]Replace the row in 0 line.
+[2022-06-05 17:53:49][notice]finish replace rows
+[2022-06-05 17:53:49][notice]Drop table if exist
+[2022-06-05 17:53:49][notice]Create table wp_wpvivid_scan_result
+[2022-06-05 17:53:49][notice]Dumping table wp_wpvivid_scan_result is complete. Start replacing row(s).
+[2022-06-05 17:53:49][notice]Count of rows in wp_wpvivid_scan_result: 0
+[2022-06-05 17:53:49][notice]Drop table if exist
+[2022-06-05 17:53:49][notice]Create table wp_wpvivid_unused_uploads_files
+[2022-06-05 17:53:49][notice]Dumping table wp_wpvivid_unused_uploads_files is complete. Start replacing row(s).
+[2022-06-05 17:53:49][notice]Count of rows in wp_wpvivid_unused_uploads_files: 0
+[2022-06-05 17:53:49][notice]Drop table if exist
+[2022-06-05 17:53:49][notice]Create table wp_yoast_indexable
+[2022-06-05 17:53:50][notice]Dumping table wp_yoast_indexable is complete. Start replacing row(s).
+[2022-06-05 17:53:50][notice]Count of rows in wp_yoast_indexable: 349
+[2022-06-05 17:53:50][notice]Replace the row in 0 line.
+[2022-06-05 17:53:51][notice]finish replace rows
+[2022-06-05 17:53:51][notice]Drop table if exist
+[2022-06-05 17:53:51][notice]Create table wp_yoast_indexable_hierarchy
+[2022-06-05 17:53:52][notice]Dumping table wp_yoast_indexable_hierarchy is complete. Start replacing row(s).
+[2022-06-05 17:53:52][notice]Count of rows in wp_yoast_indexable_hierarchy: 521
+[2022-06-05 17:53:52][notice]Replace the row in 0 line.
+[2022-06-05 17:53:52][notice]finish replace rows
+[2022-06-05 17:53:52][notice]Drop table if exist
+[2022-06-05 17:53:52][notice]Create table wp_yoast_migrations
+[2022-06-05 17:53:52][notice]Dumping table wp_yoast_migrations is complete. Start replacing row(s).
+[2022-06-05 17:53:52][notice]Count of rows in wp_yoast_migrations: 23
+[2022-06-05 17:53:52][notice]Replace the row in 0 line.
+[2022-06-05 17:53:52][notice]finish replace rows
+[2022-06-05 17:53:52][notice]Drop table if exist
+[2022-06-05 17:53:52][notice]Create table wp_yoast_primary_term
+[2022-06-05 17:53:52][notice]Dumping table wp_yoast_primary_term is complete. Start replacing row(s).
+[2022-06-05 17:53:52][notice]Count of rows in wp_yoast_primary_term: 92
+[2022-06-05 17:53:52][notice]Replace the row in 0 line.
+[2022-06-05 17:53:52][notice]finish replace rows
+[2022-06-05 17:53:52][notice]Drop table if exist
+[2022-06-05 17:53:52][notice]Create table wp_yoast_seo_links
+[2022-06-05 17:53:52][notice]Dumping table wp_yoast_seo_links is complete. Start replacing row(s).
+[2022-06-05 17:53:52][notice]Count of rows in wp_yoast_seo_links: 91
+[2022-06-05 17:53:52][notice]Replace the row in 0 line.
+[2022-06-05 17:53:53][notice]finish replace rows
+[2022-06-05 17:53:53][notice]UPDATE wp_options SET option_value="http://localhost:3001" WHERE option_name="siteurl";
+[2022-06-05 17:53:53][notice]update query len:87
+[2022-06-05 17:53:53][notice]UPDATE wp_options SET option_value="http://localhost:3001" WHERE option_name="home";
+[2022-06-05 17:53:53][notice]update query len:84
+[2022-06-05 17:53:53][notice]Finished restoring blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_db.zip
+[2022-06-05 17:54:01][notice]Restore task completed.
+[2022-06-05 17:54:07][notice]disable maintenance mode
+[2022-06-05 17:54:07][notice]clean file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_core.zip
+[2022-06-05 17:54:07][notice]clean file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_themes.zip
+[2022-06-05 17:54:07][notice]clean file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_content.zip
+[2022-06-05 17:54:07][notice]clean file:/var/www/html/wp-content/wpvividbackups/blog.nivesh.com_wpvivid-628a710af2e63_2022-05-22-17-21_backup_db.zip
